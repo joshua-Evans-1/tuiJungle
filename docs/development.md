@@ -1,8 +1,7 @@
 # Development 
 
 ## Environment
-
-
+GCC version: gcc (GCC) 13.3.0a
 
 ## Structure
 
@@ -15,7 +14,7 @@ tuiJungle
 │   └── development.md
 └── src
     ├── build
-    ├── include
+    ├── lib
     ├── root
     └── tests
 ```
