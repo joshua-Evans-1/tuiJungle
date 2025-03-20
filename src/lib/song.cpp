@@ -2,6 +2,7 @@
 
 #include "song.h"
 
+// default constructor
 Song::Song() : name( "" ), album( "" ), artists( { "" } ), trackNum( 0 ), 
 			   length( 0.0 ), genres( { "" } ), releaseDate( "" ) {}
 
@@ -14,13 +15,13 @@ Song::Song( const std::string& name, const std::string& album,
 	  length( length ), genres( genres ), releaseDate( releaseDate ) {}
 
 // setters
-void Song::setName( std::string& name ){
+void Song::setName( const std::string& name ){
 	this->name = name;
 }
-void Song::setAlbum( std::string& album ){
+void Song::setAlbum( const std::string& album ){
 	this->album = album;
 }
-void Song::setArtists( std::vector<std::string>& artists ){
+void Song::setArtists( const std::vector<std::string>& artists ){
 	this->artists = artists;
 }
 void Song::setTrackNum( int trackNum ){
@@ -29,21 +30,21 @@ void Song::setTrackNum( int trackNum ){
 void Song::setLength( double length ){
 	this->length = length;
 }
-void Song::setGenres( std::vector<std::string>& genres ){
+void Song::setGenres( const std::vector<std::string>& genres ){
 	this->genres = genres;
 }
-void Song::setReleaseDate( std::string& releaseDate ){
+void Song::setReleaseDate( const std::string& releaseDate ){
 	this->releaseDate = releaseDate;
 }
 
 // getters
-std::string Song::getName( ){
+const std::string& Song::getName( ){
 	return name;
 }
-std::string Song::getAlbum( ){
+const std::string& Song::getAlbum( ){
 	return album;
 }
-std::vector<std::string> Song::getArtists( ){
+const std::vector<std::string>& Song::getArtists( ){
 	return artists;
 }
 int Song::getTrackNum( ){
@@ -52,10 +53,10 @@ int Song::getTrackNum( ){
 double Song::getLength( ){
 	return length;
 }
-std::vector<std::string> Song::getGenres( ){
+const std::vector<std::string>& Song::getGenres( ){
 	return genres;
 }
-std::string Song::getReleaseDate( ){
+const std::string& Song::getReleaseDate( ){
 	return releaseDate;
 }
 

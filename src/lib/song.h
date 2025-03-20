@@ -7,7 +7,9 @@
 
 class Song {
 		public:
+			// default constructor
 			Song();
+			
 			// constructor
 			Song( const std::string& name, const std::string& album, 
 				  const std::vector<std::string>& artists, int trackNum, 
@@ -15,22 +17,22 @@ class Song {
 				  const std::string& releaseDate );
 			
 			// setters
-			void setName( std::string& name );
-			void setAlbum( std::string& album );
-			void setArtists( std::vector<std::string>& artists );
+			void setName( const std::string& name );
+			void setAlbum( const std::string& album );
+			void setArtists( const std::vector<std::string>& artists );
 			void setTrackNum( int trackNum );
 			void setLength( double length );
-			void setGenres( std::vector<std::string>& genres );
-			void setReleaseDate( std::string& releaseDate );
+			void setGenres( const std::vector<std::string>& genres );
+			void setReleaseDate( const std::string& releaseDate );
 			
 			// getters
-			std::string getName( );
-			std::string getAlbum( );
-			std::vector<std::string> getArtists( );
+			const std::string& getName( );
+			const std::string& getAlbum( );
+			const std::vector<std::string>& getArtists( );
 			int getTrackNum( );
 			double getLength( );
-			std::vector<std::string> getGenres( );
-			std::string getReleaseDate( );
+			const std::vector<std::string>& getGenres( );
+			const std::string& getReleaseDate( );
 		
 		private:
 			// feilds
