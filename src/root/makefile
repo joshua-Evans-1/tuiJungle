@@ -14,7 +14,7 @@ TEST_DIR = ../tests
 # Files
 SRC_FILES = main.cpp $(lib_dir)/song.cpp
 OBJ_FILES = $(SRC_FILES:%.cpp=$(BUILD_DIR)/%.o)
-TEST_FILES = $(TEST_DIR)/test.cpp $(TEST_DIR)/album.test.cpp $(TEST_DIR)/song.test.cpp $(LIB_DIR)/song.cpp $(LIB_DIR)/album.cpp
+TEST_FILES = $(TEST_DIR)/test.cpp $(LIB_DIR)/song.cpp $(LIB_DIR)/album.cpp
 EXEC = $(BUILD_DIR)/executable
 
 # set targets
