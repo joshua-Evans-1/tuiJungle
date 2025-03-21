@@ -60,21 +60,3 @@ const std::string& Song::getReleaseDate( ){
 	return releaseDate;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

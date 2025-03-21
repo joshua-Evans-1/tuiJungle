@@ -33,7 +33,7 @@ class Song {
 			double getLength( );
 			const std::vector<std::string>& getGenres( );
 			const std::string& getReleaseDate( );
-		
+
 		private:
 			// feilds
 			std::string name;
@@ -46,3 +46,4 @@ class Song {
 };
 
 #endif
+
