@@ -2,7 +2,7 @@
 // album.test.cpp
 
 #include <iostream>
-#include "../lib/album.h"
+#include "../lib/struct/album.h"
 
 void albumTest() {
 
