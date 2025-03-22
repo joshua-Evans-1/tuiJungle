@@ -1,4 +1,3 @@
-#include "../lib/song.h"
 
 int main() {
 
