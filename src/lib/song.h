@@ -10,7 +10,7 @@ class Song {
 			// default constructor
 			Song();
 			
-			// constructor
+			// parameterized constructor
 			Song( const std::string& name, const std::string& album, 
 				  const std::vector<std::string>& artists, int trackNum, 
 				  double length, const std::vector<std::string>& genres, 
