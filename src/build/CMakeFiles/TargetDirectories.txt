@@ -1,5 +1,0 @@
-/home/vimjongun/projects/programming/tuiJungle/src/build/CMakeFiles/muslib.dir
-/home/vimjongun/projects/programming/tuiJungle/src/build/CMakeFiles/tuiJungle.dir
-/home/vimjongun/projects/programming/tuiJungle/src/build/CMakeFiles/testJungle.dir
-/home/vimjongun/projects/programming/tuiJungle/src/build/CMakeFiles/edit_cache.dir
-/home/vimjongun/projects/programming/tuiJungle/src/build/CMakeFiles/rebuild_cache.dir

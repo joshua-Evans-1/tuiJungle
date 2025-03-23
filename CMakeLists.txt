@@ -17,6 +17,7 @@ set( MUSLIB_SRC
 	 src/lib/muslib/album.cpp
 	 src/lib/muslib/artist.cpp
 	 src/lib/muslib/playlist.cpp
+	 src/lib/muslib/queue.cpp
 )
 
 # create muslib library
