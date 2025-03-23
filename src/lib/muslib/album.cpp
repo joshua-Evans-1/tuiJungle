@@ -10,7 +10,7 @@ Album::Album() : name( "" ), songs( std::vector<Song>() ), artists( { "" } ),
 Album::Album( const std::string& name, const std::vector<Song>& songs,
 			  const std::vector<std::string>& artists, 
 			  const std::vector<std::string>& genres,
-			  double length, int tracklength, const std::string& releaseDate ) 
+			  double length, int trackLength, const std::string& releaseDate ) 
 	: name( name ), songs( songs ), artists( artists ), genres( genres ), 
 	  length( length ), trackLength( trackLength ), releaseDate( releaseDate ) {}
 

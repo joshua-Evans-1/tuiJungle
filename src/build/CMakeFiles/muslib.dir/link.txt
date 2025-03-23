@@ -1,0 +1,1 @@
+/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ -fPIC -g -Wall -shared -Wl,-soname,libmuslib.so -o libmuslib.so CMakeFiles/muslib.dir/src/lib/muslib/song.cpp.o CMakeFiles/muslib.dir/src/lib/muslib/album.cpp.o CMakeFiles/muslib.dir/src/lib/muslib/artist.cpp.o CMakeFiles/muslib.dir/src/lib/muslib/playlist.cpp.o

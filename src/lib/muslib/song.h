@@ -33,6 +33,9 @@ class Song {
 			double getLength( );
 			const std::vector<std::string>& getGenres( );
 			const std::string& getReleaseDate( );
+			
+			// operator overloading
+			bool operator==( const Song& compSong ) const;
 
 		private:
 			// feilds

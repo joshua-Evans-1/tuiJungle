@@ -1,0 +1,1 @@
+/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ -g -Wall CMakeFiles/tuiJungle.dir/src/root/main.cpp.o -o tuiJungle  -Wl,-rpath,/home/vimjongun/projects/programming/tuiJungle/src/build libmuslib.so

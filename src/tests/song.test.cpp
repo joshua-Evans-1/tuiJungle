@@ -1,7 +1,7 @@
 // song.test.cpp
 
 #include <iostream>
-#include "../lib/struct/song.h"
+#include "../lib/muslib/song.h"
 
 
 

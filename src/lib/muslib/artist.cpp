@@ -3,11 +3,11 @@
 #include "artist.h"
 
 // default Constructor
-Artist::Artists() : name( "" ), albums( std::vector<Album>() ), 
+Artist::Artist() : name( "" ), albums( std::vector<Album>() ), 
 					songs( std::vector<Song>() ) {}
 
 // paramaterized constructor
-Artist::Artists( const std::string& name, const std::vector<Album>& albums,
+Artist::Artist( const std::string& name, const std::vector<Album>& albums,
 				 const std::vector<Song>& songs )
 	: name( name ), albums( albums ), songs( songs ) {}	
 

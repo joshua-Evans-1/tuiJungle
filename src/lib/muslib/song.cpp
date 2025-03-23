@@ -60,3 +60,15 @@ const std::string& Song::getReleaseDate( ){
 	return releaseDate;
 }
 
+// operator overload
+bool Song::operator==( const Song& compSong ) const {
+	return name == compSong.name &&
+		   album == compSong.album &&
+		   artists == compSong.artists &&
+		   trackNum == compSong.trackNum &&
+		   length == compSong.length &&
+		   genres == compSong.genres &&
+		   releaseDate == releaseDate; 
+}
+
+

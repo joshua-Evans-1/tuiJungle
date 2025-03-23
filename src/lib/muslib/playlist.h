@@ -4,7 +4,7 @@
 
 #include <string>
 #include <vector>
-#include "Song.h"
+#include "song.h"
 
 class Playlist {
 	public:
@@ -12,7 +12,7 @@ class Playlist {
 		Playlist();
 		
 		// parameterized constructor
-		playlist( const std::string& name, const std::vector<Song>& songs );
+		Playlist( const std::string& name, const std::vector<Song>& songs );
 		
 		// setters
 		void setName( const std::string& name );
@@ -33,5 +33,5 @@ class Playlist {
 		// feilds
 		std::string name;
 		std::vector<Song> songs;
-}
+};
 #endif
